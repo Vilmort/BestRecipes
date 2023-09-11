@@ -1,4 +1,4 @@
-# Best Recipes
+# Best Recipes - Discover Culinary Delights: BestRecipes for iOS
 <img src="https://github.com/Loveink/BestRecipes/blob/develop/assets/readmegif.gif" width="900">
 
 ---
@@ -25,53 +25,55 @@
 <a href="https://github.com/AnastasiaRybakova26">
 <img src="https://img.shields.io/badge/AnastasiaRybakova26-purple"/></a>
 </p>
-Приложение сделано для https://t.me/swiftmarathon
+
+"BestRecipes" is your go-to app for culinary inspiration. Explore a world of mouthwatering recipes, from savory main courses to delectable desserts. Whether you're a seasoned chef or a beginner in the kitchen, our user-friendly app has something for everyone.
 
 ---
 
 <img width="1670" src="https://github.com/Loveink/BestRecipes/blob/develop/assets/readmeimage.png">
 
 ---
-# Описание:
+# Description:
 
-**Онбоардинг**
+**Onboarding**
 
-* Показывается только при первом заходе в приложение
+* Displayed only on the first app launch.
 
-**Главный экран**
+**Main Screen**
 
-* Поиск рецептов в search bar
-* Коллекция с популярными рецептами
-* Коллекция с рецептами по категорями.
-* Коллекция с различными кухнями
-* Коллекция с недавно просмотренными рецептами
+* Recipe search using a search bar.
+* Collection view featuring popular recipes.
+* ollection view categorizing recipes.
+* Collection view showcasing various cuisines.
+* Collection view displaying recently viewed recipes.
 
-**Экран избранных рецептов**
 
-* Показывается коллекция с избранными рецептами. Можно добавить в избранное на ячейке с рецептом
-* Сохранение в User Defaults
+**Favorites Screen**
 
-**Экран рецепта**
+* Showcases a collection of favorite recipes. Users can add recipes to their favorites from the recipe cell.
+* User Defaults used for saving favorites.
 
-* Показывается изображение блюда
-* Количество лайков (из API)
-* Подробная иструкция по шагам
-* Ингредиенты (изображение, название, количество в граммах)
-* Рядом с каждым ингредиентом есть иконка "корзина", при нажатии на кнопку "Add to shopping list" ингредиенты попадают на экран с шопинг листом
+**Recipe Details Screen**
 
-**Экран "Добавить свой рецепт"**
+* Displays an image of the dish.
+* Shows the number of likes (from the API).
+* Detailed step-by-step instructions.
+* Ingredients list (including images, names, and quantities in grams).
+* Each ingredient has an "Add to shopping list" icon. Tapping it adds ingredients to the shopping list screen.
+  
+**Add Your Recipe Screen**
 
-* На экране открывается форма для добавления собственного рецепта
-* Можно добавить собственно изображение из галереи или использовать дефолтное
-* Ингредиенты добавляются по кнопке +
-* Обязательные поля выделены красным, пока не заполнены
+* Opens a form for users to add their own recipes.
+* Allows users to upload custom images from the gallery or use default ones.
+* Ingredients can be added using the "+" button.
+* Mandatory fields are highlighted in red until filled.
 
-**Экран "Shopping List"**
+**Shopping List Screen**
 
-* На экране открывается список с ингредиентами, добавленными в шопинг лист из детальных экранов рецепта
-* Можно удалить ингредиет свайпом влево либо удалить все кнопкой "Clear shopping list"
+* Displays a list of ingredients added to the shopping list from the recipe details screens.
+* Users can delete ingredients by swiping left or clear the entire list using the "Clear shopping list" button.
 
-**Экран профиля**
+**Profile Screen**
 
-* На экране показывается изображение аватара, можно выбрать из готовых вариантов или загрузить свой
-* Коллекция со своими собственными рецептами, добавленными через экран "Добавить свой рецепт"
+* Displays an avatar image, which users can choose from pre-made options or upload their own.
+* Features a collection of users' own recipes added through the "Add Your Recipe" screen.
